@@ -31,6 +31,9 @@ This module follows [semantic versioning](http://semver.org/).
 
 ## Changelog
 
+### 1.2.1 (July 30, 2016)
+- Bug fixed: `package.json` was missing a dependency reference to EventEmitter3.
+
 ### 1.2.0 (July 30, 2016)
 - Replacing Node.js's Event module with [EventEmitter3](https://www.npmjs.com/package/eventemitter3) for increased speed and portability
 

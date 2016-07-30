@@ -1,6 +1,6 @@
 {
 	"name": "eventsplus",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Connect your microservices through events",
 	"main": "./source/index.js",
 	"scripts": {
@@ -23,5 +23,8 @@
 	"bugs": {
 		"url": "https://github.com/HiFaraz/eventsplus/issues"
 	},
-	"homepage": "https://github.com/HiFaraz/eventsplus#readme"
+	"homepage": "https://github.com/HiFaraz/eventsplus#readme",
+	"dependencies": {
+		"eventemitter3": "^1.2.0"
+	}
 }
