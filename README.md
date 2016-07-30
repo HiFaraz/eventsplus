@@ -1,5 +1,5 @@
 # eventsplus
-Connect your Node.js microservices through events
+Connect your microservices through events
 
 ## Installation
 ```bash
@@ -21,9 +21,6 @@ $ npm install eventsplus
 ### Listener chains
 [This example](https://github.com/HiFaraz/eventsplus/tree/master/examples/chain) demonstrates how to establish a chain of listeners on a single event.
 
-## Dependencies
-- Node.js 4.45+
-
 ## Upcoming features
 - Listeners return promises
 - Run listeners in parallel
@@ -32,6 +29,9 @@ $ npm install eventsplus
 This module follows [semantic versioning](http://semver.org/).
 
 ## Changelog
+
+### 1.2.0 (July 30, 2016)
+- Replacing Node.js's Event module with [EventEmitter3](https://www.npmjs.com/package/eventemitter3) for increased speed and portability
 
 ### 1.1.0 (July 29, 2016)
 - Created a listener chain of responsibility. Each listener can access the previous listener
