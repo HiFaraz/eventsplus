@@ -13,6 +13,7 @@ $ npm install eventsplus
 - Chain listeners together, where the last listener can access the previous listener
  - Use case: check user permissions in one listener before allowing user actions in a lower-level listener
  - When chaining listeners using `on(eventName)`, previous listeners added through `once(eventName)` will remain alive after the first re-use. This will be resolved in future versions
+- Fast: EventsPlus uses [EventEmitter3](https://www.npmjs.com/package/eventemitter3) instead of Node.js's built-in event module to gain a large speed boost.
 
 ## Examples
 ### Basic
