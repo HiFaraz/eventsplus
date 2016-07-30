@@ -3,5 +3,5 @@ const eventsplus = require('../../');
 eventsplus
 	.use('client1')
 	.use('client2', {
-		message: 'hello'
+		message: 'happy'
 	});
