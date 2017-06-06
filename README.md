@@ -1,4 +1,6 @@
 # eventsplus
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/HiFaraz/eventsplus.svg)](https://greenkeeper.io/)
 Connect your microservices through events
 
 ## Installation
